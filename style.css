@@ -183,3 +183,30 @@ body {
     justify-content: center;
     align-items: center;
 }
+@media screen and (max-width:430px) {
+    .Welcome-container{
+        width: 600px;
+        height: 1500px;
+        margin-bottom: 10px;
+    }
+    .Welcome-slide img{
+        animation: none;
+    }
+    .hero1{
+        width: 600px;
+        height: 1500px;
+    }
+    .backgroundimg{
+        width: 600px;
+        height: 1500px;
+    }
+    .hero2{
+        width: 600px;
+        height: 1500px;
+    }
+    .footer{
+        width: 600px;
+        height: 1500px;
+    }
+}
+
