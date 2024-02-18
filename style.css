@@ -48,11 +48,11 @@ body {
 
 /* Welcome container styles */
 .Welcome-container {
+
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh; 
-    background-color:  #181717; 
     animation: page1 linear ;
     animation-timeline: scroll();
 }
@@ -63,6 +63,8 @@ body {
 }
 /* Welcome slide styles */
 .Welcome-slide {
+    /* mix-blend-mode: screen; */
+    position: relative;
     text-align: center;
     scale: 1;
     animation: zoom linear;
@@ -72,6 +74,7 @@ body {
 @keyframes zoom {
     to{scale: 6;}
 }
+
 .Welcome-slide img{
     height: 60px;
     width: auto;
@@ -176,6 +179,7 @@ body {
     width: 500px;
 }
 .character >img{
+    filter: drop-shadow(20px 5px 5px black);
     scale:.8;opacity: 0;
     animation: fade-in linear forwards;
     animation-timeline: view();
